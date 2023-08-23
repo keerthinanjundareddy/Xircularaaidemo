@@ -21,7 +21,7 @@ function Aixirculardemo() {
   const handleCardClick = (url) => {
 
     if (url) {
-      window.open(url, '_blank');
+      window.location.href = url; 
     }
   };
 
