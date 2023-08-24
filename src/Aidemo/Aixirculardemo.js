@@ -30,7 +30,7 @@ function Aixirculardemo() {
       {pricingData && pricingData.attributes && (
         <>
           <div style={{ textAlign: "center" }}>
-            <h2 style={{ color: 'grey',textTransform: 'uppercase' }}>{pricingData.attributes.title}</h2>
+            <h2 style={{ color: 'Black',textTransform: 'uppercase' }}>{pricingData.attributes.title}</h2>
           
           </div>
           <div className='pricing-full-page-container'>
