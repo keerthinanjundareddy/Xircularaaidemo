@@ -22,16 +22,17 @@ function Aixirculardemo() {
   const handleCardClick = (url) => {
 
     if (url) {
-      window.open(url, '_blank');
+      window.location.href(url, '_blank');
     }
   };
 
   return (
-    // src={`${baseUrl}${item.attributes.media_1?.data?.[0]?.attributes?.url}`}
+    <>
+ 
     <div>
      
       {pricingData && pricingData.attributes && (
-        <>
+        <div>
          <div className='navbar-section'>
      <div style={{width:"100px",height:"80px"}}>
       <img  src={`${baseUrl}${ pricingData.attributes.media?.data?.[0]?.attributes?.url}`} style={{width:"100%",height:"100%",objectFit:"contain" }}/>
@@ -62,9 +63,10 @@ function Aixirculardemo() {
             </div>
           </div>
           
-        </>
+        </div>
       )}
     </div>
+    </>
   );
 }
 
