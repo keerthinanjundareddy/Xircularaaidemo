@@ -35,7 +35,7 @@ body{
 }
 
 .pricing-item-section:hover{
-  background-color:blue !important;
+  background-color:white !important;
 }
 .pricing-item-section:active{
   background-color:white !important;
