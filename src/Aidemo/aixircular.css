@@ -5,8 +5,12 @@
 }
 body{
   
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
+
+}
+.pricing-full-page-container{
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 .pricing-flexbox-container{
   display:flex;
@@ -20,7 +24,7 @@ body{
   margin-bottom:25px ;
 }
 .pricing-item-section{
-  flex-basis:20% !important;
+  flex-basis:25% !important;
       border: 1px solid grey;
       border-radius: 8px 8px 8px 8px;
       margin:30px 30px;

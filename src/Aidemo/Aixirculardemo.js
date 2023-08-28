@@ -49,7 +49,7 @@ function Aixirculardemo() {
                                 const imageUrlone = baseUrl + (item.attributes.media_list?.data?.[0]?.attributes?.url || '');
                 return (
                   <div key={index} className='pricing-item-section' style={{ backgroundColor: item.attributes.colour_code, borderColor: item.attributes.colour_code,cursor:"pointer",alignItems:"center",justifyContent:"center",position:"relative" }} onClick={() => handleCardClick(item.attributes.url)} >
-                     <img src={imageUrlone} style={{width:"50px",height:"50px",objectFit:"cover"}} />
+                     <img src={imageUrlone} style={{width:"150px",height:"100px",objectFit:"contain"}} />
                     <div style={{ color: item.attributes.title_color_code, paddingTop: "10px", paddingBottom: "10px" }}>{item.attributes.title}</div>
                     <div style={{position:"absolute",marginTop:"30px",
     top: "100%",
