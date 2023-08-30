@@ -39,12 +39,12 @@ body{
   outline: none;
 }
 
-.pricing-item-section:hover{
+/* .pricing-item-section:hover{
   background-color:white !important;
-}
-.pricing-item-section:active{
+} */
+/* .pricing-item-section:active{
   background-color:white !important;
-}
+} */
 .navbar-section{
   width:100%;
   height:100px;
@@ -65,12 +65,12 @@ body{
     .pricing-item-section{
       flex-basis:100%;
     }
-    .pricing-item-section:hover{
+    /* .pricing-item-section:hover{
       background-color: white !important;
-    }
-    .pricing-item-section:active{
+    } */
+    /* .pricing-item-section:active{
       background-color:white !important;
-    }
+    } */
 
 
 
