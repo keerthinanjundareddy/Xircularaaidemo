@@ -3,13 +3,16 @@
   margin:0;
   box-sizing: border-box;
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body{
   
-
+  font-family: 'Poppins', sans-serif;
 }
 .pricing-full-page-container{
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 15%;
+  margin-right: 15%;
 
 }
 .pricing-flexbox-container{
@@ -30,7 +33,7 @@ body{
       border-radius: 8px 8px 8px 8px;
       margin:30px 3px;
       /* box-shadow: 0px 0px 2px 3px lightgrey; */
-    text-align:center;
+    text-align:left;
     background-color: white;
     padding: 20px;
 
@@ -66,13 +69,11 @@ body{
       flex-direction: column;
       gap:40px
     }
-   
-    /* .pricing-item-section:hover{
-      background-color: white !important;
-    } */
-    /* .pricing-item-section:active{
-      background-color:white !important;
-    } */
+    .pricing-item-section {
+      width: 100%; /* Adjust this value as needed for width */
+   /* Adjust this value as needed for height */
+      /* Rest of your styling */
+    }
 
 
 
