@@ -35,8 +35,8 @@ function Aixirculardemo() {
       {pricingData && pricingData.attributes && (
         <div>
          <div className='navbar-section'>
-     <div style={{width:"15%",height:"100px",paddingTop:"10px",paddingBottom:"10px"}}>
-      <img  src={`${baseUrl}${ pricingData.attributes.media?.data?.[0]?.attributes?.url}`} style={{width:"100%",height:"100%",objectFit:"contain" }}/>
+     <div className='navbar-image'>
+      <img  src={`${baseUrl}${ pricingData.attributes.media?.data?.[0]?.attributes?.url}`} className='navbar-image-two'/>
       {/* <img src={imageUrltwo} style={{width:"50px",height:"50px",objectFit:"cover"}} /> */}
      </div>
       </div>
@@ -54,15 +54,26 @@ function Aixirculardemo() {
                     <div style={{ color: item.attributes.title_color_code, paddingTop: "10px", paddingBottom: "10px" }}>{item.attributes.title}</div>
                        <div style={{color: item.attributes.description_color_code}}> {item.attributes.description}</div> 
                     <div style={{position:"absolute",marginTop:"30px",
-    top: "100%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    textTransform: "uppercase",}} > {item.attributes.subtitle}</div>
+   position: "absolute",
+   marginTop: "30px",
+   top: "100%",
+   left: "50%",
+   transform: "translate(-50%, -50%)",
+   textTransform: "uppercase",
+
+   width: "100%",
+  // Prevent text from wrapping
+   overflow: "hidden", // Hide overflowing content
+  //  textOverflow: "ellipsis",
+   textAlign:"center" }} > {item.attributes.subtitle}</div>
                     {/* style={{position:"absolute",marginTop:"30px",marginLeft:"80px" ,textTransform: 'uppercase'}} */}
                   </div>
+                  
                 );
               })}
+              
             </div>
+            
           </div>
           
         </div>
