@@ -96,7 +96,6 @@ body{
   padding-bottom:10px;
 
   text-align: left;
-
 }
 .navbar-image-two{
   width:100%;
@@ -114,6 +113,12 @@ body{
 
   z-index: 100;
  
+}
+.navbar-image-two{
+  width:50%;
+  height:100%;
+  object-fit: contain;
+ text-align: left !important;
 }
    
   }
